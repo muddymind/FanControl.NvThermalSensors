@@ -1,8 +1,9 @@
-# FanControl.NvThermalSensors
+This is a customization of [FanControl.NvThermalSensors](https://github.com/TimSirmovics/FanControl.NvThermalSensors) plugin for [FanControl](https://github.com/Rem0o/FanControl.Releases) with extra sensors for offsetting VRAM temperatures. 
 
-Plugin for [FanControl](https://github.com/Rem0o/FanControl.Releases) that provides support for Nvidia thermal sensors without using an external program.
+This might help defining a max temp curve with both GPU and VMEM temperatures when using a GPU with very high temperature VRAM such as RTX3090.
 
 ## To install
 
-1. Download FanControl.NvThermalSensors.dll from the [Releases](https://github.com/TimSirmovics/FanControl.NvThermalSensors/releases) page
-2. Place it into the FanControl "plugins" folder.
+1. Clone this repo.
+2. Compile the solution.
+2. Place FanControl.NvThermalSensors.dll into the FanControl "plugins" folder.
